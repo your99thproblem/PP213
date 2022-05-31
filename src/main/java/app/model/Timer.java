@@ -8,7 +8,6 @@ import org.springframework.stereotype.Component;
 public class Timer {
 
     private Long nanoTime = System.nanoTime();
-@Bean
     public Long getTime() {
         return nanoTime;
     }
